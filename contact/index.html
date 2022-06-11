@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='../styles/styles.css'>
+</head>
+<body>
+    <main class='contactPage'>
+        <div class='container'>
+            <header>
+                <h3>Zach's WS</h3>
+                <div class='burgerIcon'>
+                    <div class='topBun'></div>
+                    <div></div>
+                    <div class='bottomBun'></div>
+                </div>
+                <ul>
+                    <a href='../'><li>Home</li></a>
+                    <a href='../projects'><li>Projects</li></a>
+                    <a href='#'><li>Contact</li></a>
+                </ul>
+            </header>
+            <section class='formSection'>
+                <form name='Contact' method='POST' class='mainForm' data-netlify='true'>
+                    <div class='formTitle'>
+                        <h4>Contact Me!</h4>
+                    </div>
+                    <div class='theForm'>
+                        <label for='name'>Name:</label>
+                        <input type='text' name='text'>
+                        <label for='email'>Email:</label>
+                        <input type='email' name='email' required>
+                        <label for='textArea'>Message:</label>
+                        <textarea name="textArea" cols="22" rows="10" required></textarea>
+                    </div>
+                    <div class='bottomForm'>
+                        <button type='submit'>Submit</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <aside class='mobileMenu'>
+            <a href='../'>Home</a>
+            <a href='../projects'>Projects</a>
+            <a href='#'>Contact</a>
+        </aside>
+        <div class='menuOverlay'></div>
+    </main>
+    <footer>
+        <div></div>
+    </footer>
+
+    <script src='../port.js'></script>
+</body>
+</html>
