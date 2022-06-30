@@ -16,11 +16,8 @@ const closeMobile = () => {
 }
 
 const manipulateWave = (e) => {
-    console.log(theTitle);
     theTitle.classList.add('move');
 }
 
 burgerIcon.addEventListener('click', openMobile);
 mobileMenuOverlay.addEventListener('click', closeMobile);
-
-
